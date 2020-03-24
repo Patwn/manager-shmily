@@ -1,4 +1,4 @@
-package club.shmily.manager;
+package club.shmily;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

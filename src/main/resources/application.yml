@@ -3,4 +3,6 @@ spring:
     username: root
     data-password: root
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql///manager
+    url: jdbc:mysql://localhost:3306/manager?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
+server:
+    port: 8001
