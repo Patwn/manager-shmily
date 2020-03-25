@@ -15,9 +15,9 @@ import javax.sql.DataSource;
  * @create 2020-03-24-19:14
  */
 @Configuration
-@MapperScan("club.shmily.dao")
+
 public class MybatisConfig {
-    @Autowired
+    /*@Autowired
     private DataSource dataSource;
 
     @Bean
@@ -29,5 +29,5 @@ public class MybatisConfig {
         //扫描映射文件
         sessionFactoryBean.setMapperLocations(resolver.getResources("classpath*:mapper/*.xml"));
         return sessionFactoryBean.getObject();
-    }
+    }*/
 }
